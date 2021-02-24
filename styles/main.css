@@ -1,17 +1,55 @@
-/** Config */
-
+@font-face {
+  font-family: 'supercell';
+  src: url('../fonts/supercell-magic-webfont.woff2') format('woff2'),
+       url('../fonts/supercell-magic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 :root{
   /*Colors*/
   --white: #fff;
   --black: #000;
-  --button: ;
+  --primary-color: #315924;
+  --second-color: #1f3d79;
+  --button: #f2ab27;
    }
-
    /** Global */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'supercell';
+  color: var(--white);
+  background-image: url('../images/always-grey.png');
+  background-color: hotpink;
+}
+h1, h2, p {
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+.header__brand img {
+  width: 80%;
+}
+.nav__list a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--white);
+  line-height: 2;
 }
 /* Breakpoints */
   /* 
@@ -23,3 +61,16 @@
     xxl: 1400px
   */
 /** Elements */
+
+/* Components */
+
+/* Helpers */
+.d-none, .hide { display: none; }
+
+.only-mobile { display: block; }
+.only-desktop { display: none; }
+
+@media screen and (min-width: 992px) {
+  .only-mobile { display: none; }
+  .only-desktop { display: block; }
+}
