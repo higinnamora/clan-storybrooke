@@ -1,0 +1,25 @@
+/** Config */
+
+:root{
+  /*Colors*/
+  --white: #fff;
+  --black: #000;
+  --button: ;
+   }
+
+   /** Global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Breakpoints */
+  /* 
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+  */
+/** Elements */
