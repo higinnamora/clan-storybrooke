@@ -26,12 +26,17 @@ body {
   font-family: 'supercell';
   color: var(--white);
   background-image: url('../images/always-grey.png');
-  background-color: hotpink;
+  background-color: var(--primary-color);
 }
-h1, h2, p {
-  margin: 0;
+p, a{
+  margin-bottom: 2rem;
 }
-
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
 .container {
   padding: 20px;
 }
@@ -39,17 +44,30 @@ h1, h2, p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--primary-color);
-  padding: 20px;
+  margin-bottom: 2rem;
 }
 .header__brand img {
   width: 80%;
 }
 .nav__list a {
-  text-decoration: none;
   font-size: 20px;
   color: var(--white);
   line-height: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.nav__list a:hover {
+  color: var(--button);
+}
+.main__image {
+  margin-bottom: 2rem;
+}
+.button {
+  width: auto;
+  height: 2rem;
+  border-radius: 5px;
+  background-color: var(--button);
 }
 /* Breakpoints */
   /* 
