@@ -140,6 +140,13 @@ a {
 @media screen and (min-width: 992px) {
   .only-mobile { display: none; }
   .only-desktop { display: block; }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .nav__list a {
+    line-height: 3;
+  }
 }
 /* Media queries */
 @media screen and (min-width: 576px) {
