@@ -144,7 +144,12 @@ a {
 @media screen and (min-width: 992px) {
   .only-mobile { display: none; }
   .only-desktop { display: block; }
-  
+  .container {
+    text-align: center;
+  }
+  .storybrooke img {
+    width: 500px;
+  }
 }
 
 /* Media queries */
