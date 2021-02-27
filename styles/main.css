@@ -144,7 +144,11 @@ a {
 @media screen and (min-width: 992px) {
   .only-mobile { display: none; }
   .only-desktop { display: block; }
+}
+/* Media queries */
+@media screen and (min-width: 576px) {
   .container {
+    padding: 3rem;
     text-align: center;
   }
   .storybrooke img {
@@ -152,9 +156,3 @@ a {
   }
 }
 
-/* Media queries */
-@media screen and (min-width: 576px) {
-  .container {
-    padding: 3rem;
-  }
-}
