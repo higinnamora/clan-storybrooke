@@ -21,6 +21,8 @@
 }
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
 }
 body {
   font-family: 'supercell';
@@ -32,10 +34,14 @@ p {
   margin-bottom: 3rem;
 }
 h1, h2, h3, h4, h5, h6 {
-  margin: 4rem 0;
+  margin: 3rem 0;
+}
+li {
+  margin-bottom: 1rem;
 }
 img {
   width: 100%;
+  margin-bottom: 3rem;
 }
 a {
   text-decoration: none;
