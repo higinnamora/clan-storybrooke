@@ -49,13 +49,11 @@ a {
   text-decoration: none;
 }
 .container {
+  text-align: center;
   padding: 20px;
 }
 /* Header */
 .header {
-  align-items: center;
-  display: flex;
-  justify-content: center;
   margin-bottom: 2rem;
 }
 .header__brand img {
@@ -69,11 +67,9 @@ a {
 /* Nav */
 .nav__list a {
   color: var(--white);
-  display: flex;
-  flex-direction: column;
+  display: block;
   font-size: 20px;
   line-height: 2;
-  text-align: center;
 }
 .nav__list a:hover {
   color: var(--button);
@@ -149,7 +145,6 @@ a {
 @media screen and (min-width: 576px) {
   .container {
     padding: 3rem;
-    text-align: center;
   }
   .storybrooke img {
     width: 500px;
