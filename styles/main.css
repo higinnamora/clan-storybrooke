@@ -42,7 +42,7 @@ li {
 }
 img {
   width: 100%;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 a {
   text-decoration: none;
@@ -88,7 +88,7 @@ a {
   text-align: center;
 }
 .card {
-  padding: 1.5rem;
+  padding: 0 1.5rem;
   border: 2px solid var(--button);
   border-radius: 20px;
   margin-bottom: 2rem;
