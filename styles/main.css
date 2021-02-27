@@ -43,6 +43,7 @@ li {
 img {
   margin-bottom: 2rem;
   width: 100%;
+  max-width: 800px;
 }
 a {
   color: var(--white);
@@ -57,7 +58,7 @@ a {
   margin-bottom: 2rem;
 }
 .header__brand img {
-  width: 80%;
+  width: 250px;
 }
 .header hr {
   border: 2px solid var(--white);
@@ -68,7 +69,6 @@ a {
 .nav__list a {
   color: var(--white);
   display: block;
-  font-size: 20px;
   line-height: 2;
 }
 .nav__list a:hover {
