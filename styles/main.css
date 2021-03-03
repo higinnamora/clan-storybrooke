@@ -63,7 +63,6 @@ a {
 .header hr {
   border: 2px solid var(--white);
   margin: 1rem;
-  width: 80vw;
 }
 /* Nav */
 .nav__list a {
@@ -140,12 +139,12 @@ a {
 @media screen and (min-width: 768px) {
   .only-mobile { display: none; }
   .only-desktop { display: block; }
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
   .nav__list a {
     line-height: 3;
+  }
+  .nav__menu {
+    display: flex;
+    align-items: center;
   }
 }
 /* Media queries */
@@ -156,15 +155,19 @@ a {
   .storybrooke img {
     width: 500px;
   }
+  .nav__list a {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 @media screen and (min-width: 992px) {
   .nav__menu {
     display: flex;
     align-items: center;
-  }
-  .nav__list a {
-    display: inline-block;
-    margin-right: 1rem;
   }
 }
 
