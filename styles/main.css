@@ -49,9 +49,13 @@ a {
   color: var(--white);
   text-decoration: none;
 }
+.body {
+  display: flex;
+  justify-content: center;
+}
 .container {
   text-align: center;
-  max-width: 992px;
+  max-width: 768px;
 }
 /* Header */
 .header {
@@ -101,7 +105,6 @@ a {
 }
 /* Footer */
 .footer {
-  background-color: var(--button);
   height: 100%;
   padding: 1rem;
 }
@@ -115,7 +118,7 @@ a {
   font-size:  2.5rem;
 }
 .footer-social__item:hover {
-  color: var(--second-color);
+  color: var(--button);
 }
 .footer__copy {
   display: flex;
