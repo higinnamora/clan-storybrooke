@@ -164,6 +164,11 @@ a {
     margin-right: 1rem;
   }
 }
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
 @media screen and (min-width: 992px) {
   .nav__menu {
     display: flex;
