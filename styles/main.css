@@ -43,7 +43,7 @@ li {
 img {
   margin-bottom: 2rem;
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
 }
 a {
   color: var(--white);
