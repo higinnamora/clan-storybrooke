@@ -113,6 +113,7 @@ a {
 }
 .footer__social{
   text-align: center;
+  margin-top: 2rem;
 }
 .footer-social__item {
   font-size:  2.5rem;
